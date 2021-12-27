@@ -27,7 +27,7 @@ html, body {
 {
   display: block;
   box-sizing: border-box;
-  right: -10%;
+  right: -5%;
   position: absolute;
   z-index: 5;
   width: 1920px;
@@ -42,10 +42,24 @@ html, body {
   display: block;
   box-sizing: border-box;
   right: -10%;
-  margin-left: -50%;
+  left: -75%;
   position: absolute;
   z-index: 5;
   width: 1080px
+  bottom:  10%;
+  user-select: none;
+  }
+}
+@media screen and (min-width: 1800px)
+{
+  .house
+  {
+  display: inline-block;
+  box-sizing: border-box;
+
+  position: absolute;
+  z-index: 5;
+  width: 100%;
   bottom:  10%;
   user-select: none;
   }
@@ -561,4 +575,3 @@ html, body {
 .snowflake:nth-child(2n) {
   z-index: 0;
 }
-
