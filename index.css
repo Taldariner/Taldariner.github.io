@@ -35,17 +35,18 @@ html, body {
   
   user-select: none;
 }
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1100px)
 {
   .house
   {
   display: block;
   box-sizing: border-box;
-  right: -10%;
-  left: -75%;
+  margin-right: 0;
+  
   position: absolute;
   z-index: 5;
-  width: 1080px
+  height: 50%;
+  width: auto;
   bottom:  10%;
   user-select: none;
   }
@@ -60,6 +61,7 @@ html, body {
   position: absolute;
   z-index: 5;
   width: 100%;
+  right: 0%;
   bottom:  10%;
   user-select: none;
   }
@@ -72,6 +74,7 @@ html, body {
   position: absolute;
   z-index: 8;
   height: 20vh;
+  right: 0%;
   margin-bottom:  10vh;
   margin-top: 70vh;
   user-select: none;
