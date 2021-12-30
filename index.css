@@ -102,9 +102,8 @@ html, body {
 }
 .snowflake {
   z-index: 10;
-  --size: 1vw;
-  width: 0.5vw;
-  height: 0.5vw;
+  width: max(0.5vw, 0.5vh);
+  height: max(0.5vw, 0.5vh);
   background: white;
   border-radius: 50%;
   position: absolute;
@@ -129,7 +128,6 @@ html, body {
 }
 
 .snowflake:nth-child(1) {
-  --size: 0.2vw;
   --left-ini: -6vw;
   --left-end: 7vw;
   left: 91vw;
@@ -138,7 +136,6 @@ html, body {
 }
 
 .snowflake:nth-child(2) {
-  --size: 0.8vw;
   --left-ini: 4vw;
   --left-end: -7vw;
   left: 71vw;
@@ -147,7 +144,6 @@ html, body {
 }
 
 .snowflake:nth-child(3) {
-  --size: 0.8vw;
   --left-ini: -7vw;
   --left-end: -8vw;
   left: 37vw;
@@ -156,7 +152,6 @@ html, body {
 }
 
 .snowflake:nth-child(4) {
-  --size: 0.8vw;
   --left-ini: 10vw;
   --left-end: 3vw;
   left: 6vw;
@@ -165,7 +160,6 @@ html, body {
 }
 
 .snowflake:nth-child(5) {
-  --size: 0.6vw;
   --left-ini: -7vw;
   --left-end: 8vw;
   left: 51vw;
@@ -174,7 +168,6 @@ html, body {
 }
 
 .snowflake:nth-child(6) {
-  --size: 0.4vw;
   --left-ini: 8vw;
   --left-end: 2vw;
   left: 50vw;
@@ -183,7 +176,6 @@ html, body {
 }
 
 .snowflake:nth-child(7) {
-  --size: 0.4vw;
   --left-ini: -3vw;
   --left-end: -9vw;
   left: 66vw;
@@ -192,7 +184,6 @@ html, body {
 }
 
 .snowflake:nth-child(8) {
-  --size: 0.6vw;
   --left-ini: 4vw;
   --left-end: -2vw;
   left: 93vw;
@@ -201,7 +192,6 @@ html, body {
 }
 
 .snowflake:nth-child(9) {
-  --size: 1vw;
   --left-ini: -4vw;
   --left-end: 4vw;
   left: 58vw;
@@ -210,7 +200,6 @@ html, body {
 }
 
 .snowflake:nth-child(10) {
-  --size: 0.2vw;
   --left-ini: -7vw;
   --left-end: 0vw;
   left: 97vw;
@@ -219,7 +208,6 @@ html, body {
 }
 
 .snowflake:nth-child(11) {
-  --size: 0.2vw;
   --left-ini: 10vw;
   --left-end: 3vw;
   left: 65vw;
@@ -228,7 +216,6 @@ html, body {
 }
 
 .snowflake:nth-child(12) {
-  --size: 0.6vw;
   --left-ini: 1vw;
   --left-end: 3vw;
   left: 19vw;
@@ -237,7 +224,6 @@ html, body {
 }
 
 .snowflake:nth-child(13) {
-  --size: 0.4vw;
   --left-ini: 5vw;
   --left-end: 2vw;
   left: 47vw;
@@ -246,7 +232,6 @@ html, body {
 }
 
 .snowflake:nth-child(14) {
-  --size: 0.6vw;
   --left-ini: 4vw;
   --left-end: -6vw;
   left: 81vw;
@@ -255,7 +240,6 @@ html, body {
 }
 
 .snowflake:nth-child(15) {
-  --size: 1vw;
   --left-ini: 10vw;
   --left-end: -4vw;
   left: 58vw;
@@ -264,7 +248,6 @@ html, body {
 }
 
 .snowflake:nth-child(16) {
-  --size: 0.4vw;
   --left-ini: 0vw;
   --left-end: 3vw;
   left: 96vw;
@@ -273,7 +256,6 @@ html, body {
 }
 
 .snowflake:nth-child(17) {
-  --size: 0.6vw;
   --left-ini: 3vw;
   --left-end: -8vw;
   left: 62vw;
@@ -282,7 +264,6 @@ html, body {
 }
 
 .snowflake:nth-child(18) {
-  --size: 0.6vw;
   --left-ini: -4vw;
   --left-end: 3vw;
   left: 13vw;
@@ -291,7 +272,6 @@ html, body {
 }
 
 .snowflake:nth-child(19) {
-  --size: 0.6vw;
   --left-ini: 0vw;
   --left-end: 7vw;
   left: 87vw;
@@ -300,7 +280,6 @@ html, body {
 }
 
 .snowflake:nth-child(20) {
-  --size: 0.2vw;
   --left-ini: 1vw;
   --left-end: 2vw;
   left: 27vw;
@@ -309,7 +288,6 @@ html, body {
 }
 
 .snowflake:nth-child(21) {
-  --size: 0.4vw;
   --left-ini: -6vw;
   --left-end: -2vw;
   left: 46vw;
@@ -318,7 +296,6 @@ html, body {
 }
 
 .snowflake:nth-child(22) {
-  --size: 0.4vw;
   --left-ini: -6vw;
   --left-end: -9vw;
   left: 41vw;
@@ -327,7 +304,6 @@ html, body {
 }
 
 .snowflake:nth-child(23) {
-  --size: 1vw;
   --left-ini: 7vw;
   --left-end: -6vw;
   left: 28vw;
@@ -336,7 +312,6 @@ html, body {
 }
 
 .snowflake:nth-child(24) {
-  --size: 1vw;
   --left-ini: -6vw;
   --left-end: -2vw;
   left: 10vw;
@@ -345,7 +320,6 @@ html, body {
 }
 
 .snowflake:nth-child(25) {
-  --size: 0.8vw;
   --left-ini: -5vw;
   --left-end: -1vw;
   left: 4vw;
@@ -354,7 +328,6 @@ html, body {
 }
 
 .snowflake:nth-child(26) {
-  --size: 0.6vw;
   --left-ini: -2vw;
   --left-end: 9vw;
   left: 16vw;
@@ -363,7 +336,6 @@ html, body {
 }
 
 .snowflake:nth-child(27) {
-  --size: 1vw;
   --left-ini: 8vw;
   --left-end: 0vw;
   left: 10vw;
@@ -372,7 +344,6 @@ html, body {
 }
 
 .snowflake:nth-child(28) {
-  --size: 0.2vw;
   --left-ini: -9vw;
   --left-end: -8vw;
   left: 68vw;
@@ -381,7 +352,6 @@ html, body {
 }
 
 .snowflake:nth-child(29) {
-  --size: 1vw;
   --left-ini: 2vw;
   --left-end: 3vw;
   left: 39vw;
@@ -390,7 +360,6 @@ html, body {
 }
 
 .snowflake:nth-child(30) {
-  --size: 0.2vw;
   --left-ini: 9vw;
   --left-end: -9vw;
   left: 59vw;
@@ -399,7 +368,6 @@ html, body {
 }
 
 .snowflake:nth-child(31) {
-  --size: 0.8vw;
   --left-ini: 8vw;
   --left-end: -1vw;
   left: 37vw;
@@ -408,7 +376,6 @@ html, body {
 }
 
 .snowflake:nth-child(32) {
-  --size: 0.2vw;
   --left-ini: 7vw;
   --left-end: -5vw;
   left: 80vw;
@@ -417,7 +384,6 @@ html, body {
 }
 
 .snowflake:nth-child(33) {
-  --size: 0.6vw;
   --left-ini: 9vw;
   --left-end: -1vw;
   left: 88vw;
@@ -426,7 +392,6 @@ html, body {
 }
 
 .snowflake:nth-child(34) {
-  --size: 0.6vw;
   --left-ini: 7vw;
   --left-end: 4vw;
   left: 20vw;
@@ -435,7 +400,6 @@ html, body {
 }
 
 .snowflake:nth-child(35) {
-  --size: 0.6vw;
   --left-ini: -9vw;
   --left-end: 10vw;
   left: 18vw;
@@ -444,7 +408,6 @@ html, body {
 }
 
 .snowflake:nth-child(36) {
-  --size: 0.2vw;
   --left-ini: -5vw;
   --left-end: -2vw;
   left: 30vw;
@@ -453,7 +416,6 @@ html, body {
 }
 
 .snowflake:nth-child(37) {
-  --size: 0.2vw;
   --left-ini: 1vw;
   --left-end: -3vw;
   left: 91vw;
@@ -462,7 +424,6 @@ html, body {
 }
 
 .snowflake:nth-child(38) {
-  --size: 0.4vw;
   --left-ini: 8vw;
   --left-end: 10vw;
   left: 16vw;
@@ -471,7 +432,6 @@ html, body {
 }
 
 .snowflake:nth-child(39) {
-  --size: 0.2vw;
   --left-ini: 2vw;
   --left-end: 7vw;
   left: 12vw;
@@ -480,7 +440,6 @@ html, body {
 }
 
 .snowflake:nth-child(40) {
-  --size: 0.4vw;
   --left-ini: 1vw;
   --left-end: 5vw;
   left: 20vw;
@@ -489,7 +448,6 @@ html, body {
 }
 
 .snowflake:nth-child(41) {
-  --size: 0.6vw;
   --left-ini: 1vw;
   --left-end: -4vw;
   left: 6vw;
@@ -498,7 +456,6 @@ html, body {
 }
 
 .snowflake:nth-child(42) {
-  --size: 0.4vw;
   --left-ini: -9vw;
   --left-end: 4vw;
   left: 4vw;
@@ -507,7 +464,6 @@ html, body {
 }
 
 .snowflake:nth-child(43) {
-  --size: 1vw;
   --left-ini: -9vw;
   --left-end: 10vw;
   left: 32vw;
@@ -516,7 +472,6 @@ html, body {
 }
 
 .snowflake:nth-child(44) {
-  --size: 0.4vw;
   --left-ini: 2vw;
   --left-end: -3vw;
   left: 40vw;
@@ -525,7 +480,6 @@ html, body {
 }
 
 .snowflake:nth-child(45) {
-  --size: 0.4vw;
   --left-ini: 1vw;
   --left-end: -7vw;
   left: 7vw;
@@ -534,7 +488,6 @@ html, body {
 }
 
 .snowflake:nth-child(46) {
-  --size: 0.6vw;
   --left-ini: 9vw;
   --left-end: -3vw;
   left: 26vw;
@@ -543,7 +496,6 @@ html, body {
 }
 
 .snowflake:nth-child(47) {
-  --size: 1vw;
   --left-ini: -7vw;
   --left-end: 7vw;
   left: 6vw;
@@ -552,7 +504,6 @@ html, body {
 }
 
 .snowflake:nth-child(48) {
-  --size: 1vw;
   --left-ini: 2vw;
   --left-end: -7vw;
   left: 59vw;
@@ -561,7 +512,6 @@ html, body {
 }
 
 .snowflake:nth-child(49) {
-  --size: 0.6vw;
   --left-ini: -5vw;
   --left-end: -2vw;
   left: 60vw;
@@ -570,13 +520,9 @@ html, body {
 }
 
 .snowflake:nth-child(50) {
-  --size: 0.6vw;
   --left-ini: -9vw;
   --left-end: -8vw;
   left: 5vw;
   animation: snowfall 31s linear infinite;
   animation-delay: -25s;
 }
-
-/* added small blur every 6 snowflakes*/
-
